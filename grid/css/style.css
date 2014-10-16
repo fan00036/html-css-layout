@@ -34,13 +34,49 @@ header,footer{
 	width:100%;
 }
 .col-2{
-	margin: 10rem 0;
-	background: red;
+	margin: 4rem 0;
+	padding: 1rem;
+	background: yellow;
 }
 @media screen and (min-width:600px){
 	.col-2{
 		float:left;
 		width:50%;
+		padding: 2rem;
 		
 	}
+
+
 }
+.col-3{
+	margin: 4rem 0;
+	padding: 1rem;
+	background: orange;
+}
+
+@media screen and (min-width: 600%){
+	.col-3{
+		width: 29.33%;
+		float: left;
+		margin-left:6%;
+	}
+	.col-3:first-child{
+		margin-left: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
